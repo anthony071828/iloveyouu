@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Message</title>
+</head>
+<body>
+    <h1>Click the link below:</h1>
+    <a href="#" id="loveLink">Click me to see a message</a>
+    <p id="message"></p>
+
+    <script>
+        // JavaScript to display the message when the link is clicked
+        document.getElementById("loveLink").addEventListener("click", function() {
+            document.getElementById("message").innerHTML = "I love you <3";
+        });
+    </script>
+</body>
+</html>
